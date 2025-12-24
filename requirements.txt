@@ -1,0 +1,61 @@
+# ============================================================================
+# AWS Enterprise Database Migration Analyzer AI v3.0
+# Requirements File - Clean and Optimized
+# ============================================================================
+
+# Core Streamlit Framework
+streamlit>=1.28.0
+
+# Data Manipulation and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization Libraries
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# AWS Integration
+boto3>=1.34.0
+botocore>=1.34.0
+
+# ⚠️ CRITICAL FIX: Anthropic AI with Proper Version
+# This fixes the 404 error - old versions don't support Claude 3.5 Sonnet
+anthropic>=0.40.0
+
+# Configuration and Data Processing
+PyYAML>=6.0
+requests>=2.31.0
+
+# Firebase Authentication
+firebase-admin>=6.2.0
+google-cloud-firestore>=2.11.1
+google-auth>=2.17.0
+
+# PDF Report Generation
+reportlab>=3.6.0
+
+# Excel File Processing (for data import/export)
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Optional: Enhanced UI Components
+streamlit-aggrid>=0.3.4
+streamlit-option-menu>=0.3.6
+
+# Optional: Advanced Mathematical Models
+scipy>=1.11.0
+
+# Development and Testing (remove in production if needed)
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.0.0
+
+# ============================================================================
+# DEPLOYMENT NOTES:
+# - This file has been cleaned of all duplicates
+# - anthropic>=0.40.0 is critical for Claude 3.5 Sonnet support
+# - All version pins use >= to allow minor updates while ensuring minimums
+# ============================================================================-e 
+# Environment loading
+python-dotenv>=1.0.0
